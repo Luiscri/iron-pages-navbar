@@ -17,7 +17,7 @@ A Polymer element of a completely responsive navbar for your [`<iron-pages>`](ht
 ### Installation
 
 ```bash
-$ bower install search-navbar
+$ npm install --save iron-pages-navbar
 ```
 
 ### In an HTML file
