@@ -1,0 +1,52 @@
+.nav-link {
+	cursor: pointer;
+}
+
+.navbar-toggler {
+	color: white;
+	border-color: transparent !important;
+}
+
+.nav-link {
+	font-size: 1.25rem;
+	width: max-content;
+	align-self: flex-end;
+}
+
+.active {
+	position: relative;
+}
+
+.active:before {
+	content: "";
+	height: 2px;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+}
+
+#search-button{
+	z-index: 0;
+	cursor: pointer;
+	color: white;
+	border-radius: 0 5px 5px 0;
+}
+
+#query-input {
+	-webkit-transition: transform .5s;
+	-moz-transition: transform .5s;
+	-ms-transition: transform .5s;
+	-o-transition: transform .5s;
+ 	transition: transform .5s;
+
+ 	-webkit-transform: scaleX(0);
+ 	-moz-transform: scaleX(0);
+	-ms-transform: scaleX(0);
+ 	-o-transform: scaleX(0);
+	transform: scaleX(0);
+	transform-origin: right;
+	width: 0; /* Do not change */
+	border-radius: 5px 0 0 5px;
+}
