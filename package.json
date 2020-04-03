@@ -1,0 +1,31 @@
+{
+  "name": "iron-pages-navbar",
+  "description": "A Polymer element of a completely responsive navbar for your iron-pages navigation.",
+  "version": "1.0.0",
+  "main": "iron-pages-navbar.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luiscri/iron-pages-navbar"
+  },
+  "keywords": [
+    "navigation",
+    "nav",
+    "navbar",
+    "search",
+    "filter",
+    "iron-pages",
+    "polymer",
+    "web-components",
+    "webcomponents"
+  ],
+  "author": "Luis Cristobal Lopez Garcia",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Luiscri/iron-pages-navbar/issues"
+  },
+  "homepage": "https://github.com/Luiscri/iron-pages-navbar",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "@polymer/iron-icons": "*"
+  }
+}
